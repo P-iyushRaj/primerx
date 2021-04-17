@@ -84,11 +84,14 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'da6j8285213knt',
+        'USER': 'ybyueamhkhezqn',
+        'PASSWORD': '9802b394c6ede2d0613972aea6b7e6e642919bb530988cf260bc2b0988e3e227',
+        'HOST': 'ec2-54-74-14-109.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
